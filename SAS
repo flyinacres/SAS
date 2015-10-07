@@ -1,0 +1,7 @@
+N = input()
+A = []
+
+A = raw_input().split()
+A = [int(x) for x in A]
+
+print sum(A)
